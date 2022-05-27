@@ -1,0 +1,23 @@
+{
+  "name": "react-bootstrap",
+  "version": "0.33.1",
+  "homepage": "https://react-bootstrap.github.io/",
+  "author": "Stephen J. Collings <stevoland@gmail.com>",
+  "license": "MIT",
+  "main": [
+    "react-bootstrap.js"
+  ],
+  "keywords": [
+    "react",
+    "ecosystem-react",
+    "react-component",
+    "bootstrap"
+  ],
+  "ignore": [
+    "**/.*"
+  ],
+  "dependencies": {
+    "react": ">=16.3.0",
+    "react-dom": ">=16.3.0"
+  }
+}
