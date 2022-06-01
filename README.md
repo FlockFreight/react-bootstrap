@@ -1,3 +1,8 @@
+NOTE: This is a fork of `react-bootstrap@^0.33.1` that fixes a [known issue](https://github.com/react-bootstrap/react-bootstrap/issues/5016) with `OverlayTrigger` relative to new `react-redux` models. Details can be found in [AX-14297](https://flockfreight.atlassian.net/browse/AX-14297) and the following commits were made to the project:
+
+- [7d4d3](https://github.com/FlockFreight/react-bootstrap/commit/7d4d33ebd9c56dd21ed7426295d61ac5b5bb44c4): Adds the fix to the overlay trigger to properly forward React context into the `overlay` component
+- [b6024](https://github.com/FlockFreight/react-bootstrap/commit/b6024269fca6729587d9fc29b0abc680571581fa): Distribute the built components so they could be consumed via GitHub URL (more info on this mechanism provided by [npm/pacote](https://github.com/npm/pacote))
+
 # React-Bootstrap [![Travis][build-badge]][build] [![npm][npm-badge]][npm]
 
 [Bootstrap 3][bootstrap] components built with [React][react].
